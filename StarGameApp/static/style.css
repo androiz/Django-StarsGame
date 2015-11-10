@@ -1,0 +1,41 @@
+.recursos{
+    background-color: #F00;
+    height: 100px;
+    margin-left: 320px;
+    width: 600px;
+}
+.menu{
+    width: 300px;
+    background-color: yellow;
+    height: 300px;
+    margin-top: 20px;
+    float: left;
+}
+.panel{
+    background-color: #008000;
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+}
+
+.panel-principal{
+    background-color: blue;
+}
+
+.panel-edificios{
+    background-color: yellow;
+}
+
+.panel-unidades{
+    background-color: red;
+}
+
+.panel-tecnologias{
+    background-color: orange;
+}
+
+.panel-datosCuenta{
+    background-color: grey;
+}

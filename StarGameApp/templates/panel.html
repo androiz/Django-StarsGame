@@ -1,0 +1,21 @@
+{% if panel == "principal" %}
+
+    {% include "panel_templates/panel_principal.html" %}
+
+{% elif panel == "edificios" %}
+
+    {% include "panel_templates/panel_edificios.html" %}
+
+{% elif panel == "unidades" %}
+
+    {% include "panel_templates/panel_unidades.html" %}
+
+{% elif panel == "tecnologias" %}
+
+    {% include "panel_templates/panel_tecnologias.html" %}
+
+{% elif panel == "datosCuenta" %}
+
+    {% include "panel_templates/panel_datos_de_cuenta.html" %}
+
+{% endif %}
